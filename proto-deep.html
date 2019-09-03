@@ -1,0 +1,149 @@
+<html>
+
+<head>
+    <title>Proto</title>
+</head>
+
+<body>
+   
+   
+   
+   
+   
+   
+   <script>
+    /*
+    var storm = function(){}; 
+    storm.prototype.prcipe = 'rain';  // rain
+
+    var winStorm = function(){}; 
+    winStorm.prototype.prcipe =  new storm(); 
+
+    winStorm.prototype.prcipe = 'snow';
+
+    var bob = new winStorm();
+
+    console.log(bob.prcipe);
+    */
+
+
+    /*
+
+    function One(){
+        this.first = 20;
+    };
+
+
+    function Two(){
+        this.second = 30;
+    }
+
+    Two.prototype.test = 'papa';
+    delete Two.prototype.test; // It will Delete The val
+    delete Two.test // it wont delete because test is not direct property of Two
+
+    
+    Two();
+    One.prototype.test = Two.prototype.test; 
+
+    One.prototype.test = 'Me papa';
+    
+    console.log(Two.prototype.test);
+    console.log(One.prototype.test); // Undefined because prototype has been assigned as var
+
+    */
+
+ 
+
+  /*
+
+    var a = {
+        name : 'Niranjan',
+        last : 'Pawar',
+        fullName : function(){
+               debugger;
+                console.log(this.name + ' ' + this.last); 
+                
+                 test = () =>{
+                    console.log(this.name + ' ' + this.last); 
+                }
+                test();
+        }
+    }
+
+
+    a.fullName();
+  
+  */
+
+/*
+
+   var a = 100;
+
+   function test(a){ 
+        console.log(a); // 100
+         a = 500; 
+        console.log(a)  // 500
+   }
+
+   test(a);
+
+   console.log(a); // 500
+
+*/
+
+/*
+var a = { 
+    name : 'Niranjan'
+};
+
+function test (){
+
+     a.name = 'pavan';
+     console.log(a); // pavan 
+      
+     delete a.name ; 
+     console.log(a); // pavan 
+}
+
+console.log(a); // Niranjan
+
+test();
+
+console.log(a); // pavan
+
+*/
+ 
+/*
+function test(...j){
+    console.log(j);
+}
+
+a = 10;
+b = 20;
+c = 100;
+test(a,b,c);
+*/
+
+ 
+  
+
+
+   </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

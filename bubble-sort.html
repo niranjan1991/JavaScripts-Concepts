@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+
+<body>
+
+    <script>
+
+        var tempArr = [10 , 500, 100]
+        function bubbleSort(arr) {
+            var len = arr.length;
+            debugger
+            for (var i = len - 1; i >= 0; i--) { // i = 100
+                debugger
+                for (var j = 1; j <= i; j++) {  // j = 1;
+                    debugger
+                    if (arr[j - 1] > arr[j]) {    
+                        debugger
+                        var temp = arr[j - 1];
+                        arr[j - 1] = arr[j];
+                        arr[j] = temp;
+                    }
+                }
+            }
+            console.log(arr);
+            return arr;
+        }
+        bubbleSort(tempArr); //[2, 3, 4, 5, 7, 9] 
+
+
+
+    </script>
+</body>
+
+</html>
